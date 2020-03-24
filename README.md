@@ -4,13 +4,13 @@ PyTorch implementation of "Image Inpainting for Irregular Holes Using Partial Co
 
 **Authors**: _Guilin Liu, Fitsum A. Reda, Kevin J. Shih, Ting-Chun Wang, Andrew Tao, Bryan Catanzaro_
 
-# Prerequisites
+## Prerequisites
 
 * Python 3
 * PyTorch 1.0
 * NVIDIA GPU + CUDA cuDNN
 
-# Installation
+## Installation
 
 * Clone this repo:
 
@@ -19,9 +19,9 @@ git clone https://github.com/Xiefan-Guo/PConv.git
 cd PConv
 ```
 
-# Usage
+## Usage
 
-## Training
+### Training
 
 To train the PUNet model:
 
@@ -31,7 +31,7 @@ python train.py \
     --mask_root [path to masks directory]
 ```
 
-## Evaluating
+### Evaluating
 
 To evaluate the model:
 
