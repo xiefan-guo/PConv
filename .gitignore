@@ -1,5 +1,5 @@
-# Object file
-*.o
-
-# Ada Library Information
-*.ali
+.idea
+runs
+snapshots
+results
+src/__pycache__
